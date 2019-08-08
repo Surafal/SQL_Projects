@@ -1,0 +1,35 @@
+Review
+
+In this lesson, we learned about relationships between tables in relational databases and how to query information from multiple tables using SQL.
+
+Let’s summarize what we’ve learned so far:
+
+    JOIN will combine rows from different tables if the join condition is true.
+
+    LEFT JOIN will return every row in the left table, and if the join condition is not met, NULL values are used to fill in the columns from the right table.
+
+    Primary key is a column that serves a unique identifier for the rows in the table.
+
+    Foreign key is a column that contains the primary key to another table.
+
+    CROSS JOIN lets us combine all rows of one table with all rows of another table.
+
+    UNION stacks one dataset on top of another.
+
+    WITH allows us to define one or more temporary tables that can be used in the final query.
+
+
+
+JOIN (or INNER JOIN)
+Use JOIN, or INNER JOIN, when you want to strictly select rows of data that match some condition, provided by an ON clause. For example, if we had tables of employee information, and require their company information, we could JOIN the tables together so that we only obtain results that match, and provide us all the information we need, excluding results that are missing information.
+
+LEFT JOIN
+LEFT JOIN can be used when you want to see all the results from the first table no matter what, but also want to include matches, if any, with the second table. For example, say we had a table for customers and another table for purchase information. If we wanted to obtain all customer information, and any purchase information, then a LEFT JOIN might be useful. If the customers made no purchases, their information will still be returned.
+
+CROSS JOIN
+CROSS JOIN can be used when you want to get combinations of rows from a table with other tables. A simplified example of using this would be, say we wanted to get every possible combination of a meal, which consists of an appetizer, main course, and dessert. Using a CROSS JOIN can give us every possible combination.
+
+UNION
+Although not necessarily a JOIN, UNION can be used when you wish to combine multiple tables together quickly. One helpful feature of a UNION is that it will only return unique rows, so there will be no duplicates in the combined table.
+
+
