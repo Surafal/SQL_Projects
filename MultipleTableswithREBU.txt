@@ -1,23 +1,9 @@
 Multiple Tables with REBU
 
-Let’s practice what we learned about joins by combining rows from different tables.
 
-Suppose you are a data analyst at REBU, a ridesharing platform. For a project, you were given three tables:
-
-    trips - trips information
-    riders - users data
-    cars - autonomous cars
-
-Have fun!
-
-If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
-Tasks
-10/10Complete
-Mark the tasks as complete by checking them off
-Write the following queries:
 1.
 
-Let’s examine the three tables.
+Letâ€™s examine the three tables.
 
 SELECT * FROM trips;
 
@@ -43,11 +29,11 @@ trips table
 **cars** table - `id` - car ID - `model` - car model - `OS` - operating system - `status` - active or maintenanence - `trips_completed` - total trips completed
 2.
 
-What’s the primary key of trips?
+Whatâ€™s the primary key of trips?
 
-What’s the primary key of riders?
+Whatâ€™s the primary key of riders?
 
-What’s the primary key of cars?
+Whatâ€™s the primary key of cars?
 
 The primary key of trips is id.
 
@@ -178,7 +164,7 @@ WHERE status = 'active';
 
 10.
 
-It’s safety recall time for cars that have been on the road for a while.
+Itâ€™s safety recall time for cars that have been on the road for a while.
 
 Write a query that finds the two cars that have the highest trips_completed.
 
